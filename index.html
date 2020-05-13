@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ankur Charan</title>
+
+	<link rel="shortcut icon" href="./cicon.ico">
+
+	<!-- bootstrap  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<style>
+
+		body {
+			background: #ffffff url('./geometry.png'); 
+		}
+		#title {
+			text-align: center;
+			color: #bd1220;
+		}
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		h1{
+			text-transform: capitalize;
+			font-weight: 200;
+			font-size: 40px;
+		}
+
+		ul{
+			text-align: center;
+			list-style: none;
+			margin: auto;
+			padding: 0;
+		}
+
+		li{
+			font-size: 30px;
+		}
+		li:hover {
+			font-size: 33px;
+			transition: all 0.4s;
+		}
+		li::after {
+			transition: all 0.4s;
+		}
+		a:active {
+			color: none;
+		}
+		a:visited {
+			color: none;
+		}
+		a {
+			color: black;
+		}
+
+		#author {
+			font-size: 30px;
+			float: right;
+			right: auto;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="mb-5" id="title">
+			<h1>A Few Frontend Apps</h1>
+		</div>
+
+
+		<ul>
+			<li id="cgame">
+				<a href="/ColorGame/">
+					The Great RGB Color Game
+				</a>
+			</li>
+			<li id="mgame">
+				<a href="/MemoryGame/">
+					Memory Game
+				</a>
+			</li>
+			<li id="dgame">
+				<a href="/DrawGame/">
+					Draw Board
+				</a>
+			</li>
+
+			<li id="dgame">
+				<a href="/PatatapProjectClone/">
+					Pat-A-Tap
+				</a>
+			</li>
+
+			<li id="dgame">
+				<a href="/ScoreKeeper/">
+					Score Keeper
+				</a>
+			</li>
+
+			<li id="dgame">
+				<a href="/Stopwatch/">
+					Stopwatch
+				</a>
+			</li>
+
+			<li id="dgame">
+				<a href="/ToDo-List/">
+					ToDo List
+				</a>
+			</li>
+		</ul>
+
+		<div id="author">
+			<a href="https://ankurcharan.github.io/">
+				- Ankur Charan
+			</a>
+		</div>
+
+	</div>
+</body>
+</html>

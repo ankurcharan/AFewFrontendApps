@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stopwatch</title>
+	<link rel="stylesheet" type="text/css" href="stopwatch.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Chela+One" rel="stylesheet">
+</head>
+<body>
+	<div class="container" id = "header">Stopwatch</div>
+	<div id="lap"><span id='lmin'>00</span>:<span id='lsec'>00</span>:<span id='lcsec'>00</span></div>
+
+	<div id="time"><span id='tmin'>00</span>:<span id='tsec'>00</span>:<span id='tcsec'>00</span></div>
+
+	<div id="but" class="row">
+			<div class="col-xs-2 col-xs-offset-4" >
+				<button id="startbut" class="control">Start</button>
+				<button id="stopbut" class="control">Stop</button>
+				<button id="resumebut" class="control">Resume</button>
+			</div>
+			<div class="col-xs-2" id="grp2">
+				<button id="lapbut" class="control disabled" disabled="true">Lap</button>
+				<button id="resetbut" class="control disabled" disabled="true">Reset</button>
+			</div>
+			
+	</div>
+
+	<div id="laps"></div> 
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="stopwatch.js"></script>
+</body>
+</html>
